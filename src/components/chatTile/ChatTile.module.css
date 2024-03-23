@@ -1,0 +1,12 @@
+.chatTile {
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+  color: white;
+  align-items: center;
+  transition: background-color 0.2s linear;
+}
+
+.chatTile:hover {
+  background-color: hsl(268, 20%, 30%);
+}

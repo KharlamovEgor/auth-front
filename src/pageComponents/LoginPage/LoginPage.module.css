@@ -1,0 +1,61 @@
+.container {
+  display: grid;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  gap: 128px;
+  justify-content: center;
+  align-content: center;
+  background-color: #31263e;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  min-width: 850x;
+  padding: 28px;
+  border-radius: 16px;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.form label {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.form input {
+  margin-bottom: 8px;
+}
+
+.form button {
+  margin-top: 10px;
+}
+
+.alert {
+  font-size: 12px;
+  margin: 0;
+  color: red;
+  margin-bottom: 8px;
+}
+
+.header {
+  margin: 0 0 10px;
+  font-size: 36px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.logoHeader {
+  color: white;
+  font-size: 72px;
+  margin: 0;
+}
